@@ -202,4 +202,4 @@ elif Option=="Predictions":
     if submit_button:
         predicted_price = predict_selling_price(ip_year, ip_town, ip_flat_type, ip_floor_area_sqm, ip_flat_model, ip_storey_start, ip_storey_end, ip_remaining_lease_year, ip_remaining_lease_month, ip_lease_commence_date)
 
-        st.markdown(f"""<h2 style='color:#FF10AB;'>The Predicted Price is : $ {predicted_price}</h2>""", unsafe_allow_html=True)
+        st.markdown(f"""<h2 style='color:#FF10AB;'>The Approximate Predicted Price is : $ {predicted_price}</h2>""", unsafe_allow_html=True)
