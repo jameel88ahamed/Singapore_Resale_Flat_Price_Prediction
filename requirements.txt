@@ -1,0 +1,5 @@
+streamlit
+streamlit_option_menu
+numpy
+gdown
+scikit-learn==1.4.2
